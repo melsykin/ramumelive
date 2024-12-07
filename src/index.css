@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  perspective: 1000px;
+}
+
+.perspective-container {
+  transform-style: preserve-3d;
+}

@@ -1,0 +1,159 @@
+# Ramune Live Website Requirements
+
+## Project Overview
+- Modern, professional vtuber-themed website
+- Clean design with personality
+- Responsive layout for all devices
+- Fast loading and optimized performance
+
+## Directory Structure
+
+### /src/components
+- Purpose: Reusable UI components
+- Organization:
+  - common/: Shared components (Button, Card, Container)
+  - layout/: Header, Footer, Navigation
+  - sections/: Homepage sections (Hero, About, Services, etc.)
+  - ui/: Small UI components (Icons, Badges, etc.)
+- Best Practices:
+  - Keep components small and focused
+  - Use TypeScript for prop definitions
+  - Implement proper animations
+  - Maintain consistent styling
+
+### /src/pages
+- Purpose: Main page components
+- Pages:
+  - Home: Landing page with main sections
+  - Services: Detailed service offerings
+  - Gallery: Past work showcase
+  - Contact: Contact form and information
+- Best Practices:
+  - Implement smooth page transitions
+  - Optimize image loading
+  - Handle responsive layouts
+  - Include proper meta tags
+
+### /src/hooks
+- Purpose: Custom React hooks
+- Includes:
+  - useAnimations: Custom animations
+  - useTheme: Theme management
+  - useScrollPosition: Scroll-based effects
+- Best Practices:
+  - Keep hooks focused
+  - Include proper TypeScript types
+  - Handle error cases
+  - Document usage
+
+### /src/styles
+- Purpose: Styling configuration
+- Contents:
+  - theme/: Custom theme configuration
+  - animations/: Keyframe animations
+  - utils/: Style utility functions
+- Best Practices:
+  - Use Tailwind CSS effectively
+  - Maintain consistent color scheme
+  - Implement dark/light modes
+  - Use CSS variables for theming
+
+### /src/assets
+- Purpose: Static assets
+- Organization:
+  - images/: Website images
+  - icons/: Custom icons
+  - animations/: Animation assets
+- Best Practices:
+  - Optimize all assets
+  - Use appropriate formats
+  - Implement lazy loading
+  - Include alt text for images
+
+## Design Guidelines
+
+1. Color Scheme
+   - Primary: Soft purple/pink (vtuber theme)
+   - Secondary: Complementary pastels
+   - Accent: Bright highlights
+   - Background: Clean whites/darks
+
+2. Typography
+   - Headings: Modern, bold font
+   - Body: Clean, readable font
+   - Proper hierarchy
+   - Consistent spacing
+
+3. UI Components
+   - Custom animated buttons
+   - Floating cards
+   - Gradient accents
+   - Smooth transitions
+
+4. Layout
+   - Clean grid system
+   - Proper white space
+   - Responsive breakpoints
+   - Intuitive navigation
+
+## Features
+
+1. Essential Sections
+   - Hero with animated elements
+   - Services overview
+   - Portfolio/Gallery
+   - About/Bio
+   - Contact information
+   - Social media links
+
+2. Interactive Elements
+   - Smooth scroll navigation
+   - Animated section transitions
+   - Hover effects
+   - Loading states
+
+3. Performance
+   - Optimized images
+   - Code splitting
+   - Lazy loading
+   - Minimal dependencies
+
+## Accessibility
+
+1. Implementation
+   - Semantic HTML
+   - ARIA labels
+   - Keyboard navigation
+   - Screen reader support
+
+2. Visual
+   - Sufficient contrast
+   - Readable font sizes
+   - Clear focus states
+   - Alternative text
+
+## Development Best Practices
+
+1. Code Quality
+   - TypeScript for type safety
+   - Component modularity
+   - Clean code structure
+   - Proper documentation
+
+2. Performance
+   - Bundle size optimization
+   - Image optimization
+   - Efficient rendering
+   - Caching strategies
+
+3. Maintenance
+   - Clear component structure
+   - Consistent naming
+   - Code comments
+   - Version control
+
+## Testing
+- Component testing
+- Responsive testing
+- Cross-browser compatibility
+- Performance monitoring
